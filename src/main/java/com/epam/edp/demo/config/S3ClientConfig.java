@@ -10,13 +10,13 @@ import software.amazon.awssdk.services.s3.S3Client;
 @Configuration
 public class S3ClientConfig {
 
-    @Value("${could.aws.region}")
+    @Value("${cloud.aws.region}")
     private String region;
 
-    @Value("${could.aws.bucket}")
+    @Value("${cloud.aws.bucket}")
     private String bucket;
 
-    @Value("${could.aws.file}")
+    @Value("${cloud.aws.file}")
     private String file;
 
     public String getRegion() {
