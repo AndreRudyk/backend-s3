@@ -2,24 +2,24 @@ package com.epam.edp.demo.response;
 
 public class FileResponse {
 
-    private String context;
+    private String content;
 
-    public FileResponse(String context) {
-        this.context = context;
+    public FileResponse(String content) {
+        this.content = content;
     }
 
-    public String getContext() {
-        return context;
+    public String getContent() {
+        return content;
     }
 
-    public void setContext(String context) {
-        this.context = context;
+    public void setContent(String content) {
+        this.content = content;
     }
 
     @Override
     public String toString() {
         return "FileResponse{" +
-                "context='" + context + '\'' +
+                "content='" + content + '\'' +
                 '}';
     }
 }
